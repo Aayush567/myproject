@@ -1,0 +1,178 @@
+
+
+body {background-color: white; 
+}             }
+h1 {  color: red;
+      text-align:center;
+      font-size:50px 
+   }
+h2{color:orange;
+        }
+
+.side-var ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.side-var li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.outer{ width:100%; display:block;
+             }
+
+.v-container{
+		 display: inline-block;
+		margin: 5px;
+		 color: white;
+}
+.v-container a{
+	text-decoration:none;
+	text-transform:capitalize;
+}
+.video{  width: 80%;
+         float: right;
+         display: block;
+         color: white;
+         overflow-y: scroll;
+         height: 520px;
+
+       }
+
+.inner{  
+     
+       }
+  
+
+.player{ preload="metadata" width="800" height="500" controls 
+     
+       }
+
+.side-var {
+    width: 16%;
+    float: left;
+    height: 500px;
+    position: fixed;
+    top: 13%;
+    
+}
+
+.name-desc ul {
+    list-style: none;
+    padding: 0;
+}
+.name-desc ul li {
+    text-align: left;
+    text-indent: 13px;
+    font-family: arial;
+    font-weight: 600;
+}
+.name-desc ul li span {
+    font-size: 14px;
+    font-weight: 400;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color:#ccc;
+    clear: left;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height:20px;
+} 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.header{ width:100%;
+
+     }
+.logo{ width:25%;
+       float:left;
+
+     }
+.search{ width:50%;
+         margin:0 auto;
+         top:10px;
+         position:relative;
+      }
+.upload {
+    width: 20%;
+    margin: 0px auto;
+    float: right;
+    height: 0px;
+    right: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.headre-space{ height:70px;
+               background-color:#ccc;
+}
+.upload1{
+    float: right;
+    top: -15px;
+    margin: 0px;
+    width: -5px;
+    height: 14px;
+    position: relative;
+}
+.upload_date{
+             font-size:10px;
+             position: absolute;
+}
+.advertise{
+        
+          float: right;
+          top: 20px;
+          position: relative;
+          margin: 26px;
+          width: 400px;
+          height: 533px;
+}
+
+
+
+
+

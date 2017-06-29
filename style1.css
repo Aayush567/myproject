@@ -1,0 +1,78 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+div.container {
+    width: 100%;
+    border: 3px solid gray;
+    height:700px;
+}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    bottom:0;
+    position:fixed;
+    width:100%
+}
+header {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+   
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: -5px;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+			
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 3px solid gray;
+    padding: 1em;
+   
+    height: 606px;
+}
+   
+.upload {
+    width: 20%;
+    margin: 0px auto;
+    float: right;
+    height: 0px;
+    position: relative;
+    top: 0px;
+}
